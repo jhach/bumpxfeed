@@ -28,9 +28,9 @@ const Footer = () => {
         {` `}
         <Link
           aria-label="Link to the project's GitHub"
-          href="https://github.com/jhach/gatsby-starter-minimal-blog"
+          href="https://github.com/jhach/bumpxfeed"
         >
-          jhach's GitHub
+          bumpxfeed's GitHub
         </Link>
       </div>
     </footer>
