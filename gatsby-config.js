@@ -10,11 +10,11 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitle: `James Hach`,
-    siteTitleAlt: `James Hach's Blog`,
-    siteHeadline: `James Hach's Blog - Shout out to Gatsby Theme from @lekoarts`,
-    siteUrl: `https://jhach.netlify.app`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    siteTitle: `Bump x Feed`,
+    siteTitleAlt: `Bump x Feed Blog`,
+    siteHeadline: `Bump x Feed Blog - Be a WWE Superstar, AEW, Impact!, ROH, NJPW Wrestler`,
+    siteUrl: `https://bumpxfeed.netlify.app`,
+    siteDescription: `Your source for pro wrestling schools and tips on nutrition, exercise, improv and more for you to succeed as a WWE, AEW, Impact!, ROH, NJPW wrestler`,
     siteImage: `/banner.jpg`,
     author: `@sammyisjames`,
   },
