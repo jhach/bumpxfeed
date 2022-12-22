@@ -14,7 +14,7 @@ module.exports = {
     siteTitleAlt: `Bump x Feed Blog`,
     siteHeadline: `Bump x Feed Blog - Be a WWE Superstar, AEW, Impact!, ROH, NJPW Wrestler`,
     siteUrl: `https://bumpxfeed.netlify.app`,
-    siteDescription: `Your source for pro wrestling schools and tips on nutrition, exercise, improv and more for you to succeed as a WWE, AEW, Impact!, ROH, NJPW wrestler`,
+    siteDescription: `Your source for pro wrestling schools and tips on nutrition, exercise, improv/acting classes and more for you to succeed as a WWE, AEW, Impact!, ROH, NJPW wrestler`,
     siteImage: `/banner.jpg`,
     author: `@sammyisjames`,
   },
