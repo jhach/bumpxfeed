@@ -36,11 +36,10 @@ module.exports = {
           },
         ],
         externalLinks: [
-          {
+         /* {
             name: `LinkedIn`,
             url: `https://www.linkedin.com/in/jameshach`,
           },
-          /*
           {
             name: `Homepage`,
             url: `https://jhach.netlify.app`,
@@ -84,7 +83,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
       trackingIds: [
-        "G-S7F5NSNW1V", // Google Analytics / GA
+        "G-JVJ5ZYFD7R", // Google Analytics / GA
         "AW-CONVERSION_ID", // Google Ads / Adwords / AW
         "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
       ],
