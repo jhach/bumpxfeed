@@ -47,16 +47,7 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          `gatsby-remark-embed-video`,
-          `gatsby-remark-images`,
-          `gatsby-remark-responsive-iframe`,
-        ],
-      },
-    },
+    `gatsby-plugin-mdx-embed`,
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
