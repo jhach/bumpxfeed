@@ -49,6 +49,16 @@ module.exports = {
     },
     `gatsby-plugin-mdx-embed`,
     {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleAnalytics: {
+          trackingId: `G-JVJ5ZYFD7R`,
+          anonymize: true
+        },
+        environments: [`production`, `development`]
+      },
+    },
+    {
       resolve: `gatsby-plugin-sitemap`,
       options: {
         output: `/`,
