@@ -6,7 +6,7 @@
 <h1 align="center">
   Gatsby Starter: Minimal Blog
 </h1>
-<!-->
+<!--
 <p align="center">
   <a href="https://github.com/LekoArts/gatsby-starter-minimal-blog/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-0BSD-blue.svg" alt="Minimal Blog is released under the 0BSD license." />
@@ -22,6 +22,7 @@
   </a>
 </p>
 -->
+
 Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting. Using the Gatsby Theme [`@lekoarts/gatsby-theme-minimal-blog`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-minimal-blog).
 
 
