@@ -8,7 +8,7 @@ import Header from "@lekoarts/gatsby-theme-minimal-blog/src/components/header"
 import Footer from "@lekoarts/gatsby-theme-minimal-blog/src/components/footer"
 import CodeStyles from "@lekoarts/gatsby-theme-minimal-blog/src/styles/code"
 import SkipNavLink from "@lekoarts/gatsby-theme-minimal-blog/src/components/skip-nav"
-import CookieConsent, { Cookies } from "react-cookie-consent"
+import CookieConsent, { OPTIONS } from "react-cookie-consent"
 
 type LayoutProps = { children: React.ReactNode; className?: string }
 
@@ -45,11 +45,14 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
     <SkipNavLink>Skip to content</SkipNavLink>
     <Container>
     <CookieConsent
-          location="bottom"
-          buttonText="Accept"
-          declineButtonText="Decline"
-          cookieName="gatsby-gdpr-google-analytics"
-          enableDeclineButton={true}>
+      // disableStyles={true}
+      location="bottom"
+      buttonText="Accept"
+      declineButtonText="Decline"
+      cookieName="gatsby-gdpr-google-analytics"
+      enableDeclineButton={true}
+      // debug={true}
+          >
       This website uses cookies to enhance the user experience.{" "}
       </CookieConsent>
       <Header />

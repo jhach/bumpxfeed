@@ -53,6 +53,7 @@ module.exports = {
       options: {
         googleAnalytics: {
           trackingId: `G-JVJ5ZYFD7R`,
+          cookieName: `gatsby-gdpr-google-analytics`,
           anonymize: true
         },
         environments: [`production`, `development`]
